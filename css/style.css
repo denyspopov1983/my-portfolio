@@ -1,10 +1,10 @@
-@import url("_0--main.css");
-@import url("_1--btn.css");
-@import url("_1--helpers.css");
+@import url("main.css");
+@import url("btn.css");
+@import url("helpers.css");
 
-@import url("_block--header.css");
+@import url("header.css");
 
-@import url("_page--home.css");
+@import url("home.css");
 :root {
     /* Colors */
     --pr: #135ec5;
