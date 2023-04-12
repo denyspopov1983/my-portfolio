@@ -1,0 +1,21 @@
+.box-user-info {
+}
+.box-user-info .box-user-info__user {
+    height: 200px;
+}
+.box-user-info .box-user-info__text {
+    height: 200px;
+}
+.box-user-info .box-user-info__skill-list {
+    min-height: 200px;
+}
+.box-user-info .box-user-info__skill-1 {
+    background: rgb(0, 24, 51);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 24, 51, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+.box-user-info .box-user-info__skill-2 {
+}

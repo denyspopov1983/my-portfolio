@@ -1,0 +1,199 @@
+
+
+.d-flex {
+    display: flex;
+}
+.d-flex-space-around {
+    justify-content: space-around;
+}
+.d-flex-space-between{
+    justify-content: space-between;
+}
+.d-flex-align-center {
+    align-items: center;
+}
+.d-flex-wrap {
+    flex-wrap: wrap;
+}
+
+.w-50 {
+    width: 50%;
+}
+.w-100 {
+    width: 100%;
+}
+
+.img-resize {
+    --max-size: 100px;      
+    width: 100%;
+    max-width: var(--max-size);      /* ?*/ 
+}
+
+.relative {
+    position: relative;
+}
+
+.abs-text-shadow {
+    text-shadow: 0px 0px 165px rgba(0, 0, 0, 0.9);
+    font-weight: 700;
+    font-size: 185px;
+    position: absolute;
+    color: #131210;
+}
+
+
+
+.container,
+.container-fullsize {   /* ?*/ 
+	margin: 0 auto;
+	padding: 0 15px;
+    position: relative; /* position: absolute */
+}
+.container {
+	max-width: 1180px;
+}
+.container-fullsize {
+	padding-left: 60px;   
+	padding-right: 60px;
+}
+@media screen and (max-width: 724px) {
+    .container-fullsize {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.title {
+    --color: #fff;
+
+    color: var(--color);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.title.title--gray { 
+    color: #3c3c3c;   
+}
+.title.title--blue { 
+    color: #135ec5;
+}
+
+.box-gradient {
+    background: rgb(2,46,116);
+    background: linear-gradient(309deg, rgba(2,46,116,1) 0%, rgba(0,23,48,1) 100%);
+}
+.icons{
+    margin: 0 20px;
+}
+
+
+.helper-price {
+    font-size: 30px;
+    color: #16ad2c;
+}
+
+.fs-60px {
+    font-size: 60px;
+}
+.fs-30px {
+    font-size: 30px;
+}
+.fs-18px {
+    font-size: 30px;
+}
+
+.text-default {
+    color: #1d1d1d;
+}
+
+.text-center{ 
+    text-align: center;   
+}
+
+.mb-10px {
+    margin-bottom: 10px;
+}
+
+.mb-20px {
+    margin-bottom: 20px;
+}
+
+.fw-400{ 
+     font-weight: 400;
+}
+
+.fw-700{ 
+    font-weight: 700;
+}
+
+
+
+
+
+
+ 
+.abs-text-shadow-white{
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    font-weight: 700;
+    font-size: 185px;
+    position: absolute;
+    color: #ffffff;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+.position-right{
+position: absolute;
+right: 50px;
+top: 1500px;
+}
+.position-left{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.abs-text-shadow-white{
+    text-shadow: 0px 0px 165px rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    font-size: 185px;
+    position: absolute;
+
+    bottom: 250px;
+    color: #ffffff;
+}
+
+.position-bottom{
+    position: absolute;
+    bottom: 250px;
+}
