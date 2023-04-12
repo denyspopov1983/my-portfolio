@@ -1,10 +1,4 @@
 # Security Headers
 <IfModule mod_headers.c>
-    Header set Content-Security-Policy "upgrade-insecure-requests"
-    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-    Header set X-Xss-Protection "1; mode=block"
-    Header set X-Frame-Options "SAMEORIGIN"
-    Header set X-Content-Type-Options "nosniff"
-    Header set Referrer-Policy "strict-origin-when-cross-origin"
-    Header set Permissions-Policy "geolocation=self"
+    Header always set Permissions-Policy "geolocation=(); midi=();notifications=();push=();sync-xhr=();accelerometer=(); gyroscope=(); magnetometer=(); payment=(); camera=(); microphone=();usb=(); xr=();speaker=(self);vibrate=();fullscreen=(self);"
 </IfModule>
