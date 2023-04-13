@@ -133,7 +133,6 @@
     height: 1926px;
     margin-left: -308px;
 }
-
 /* First block */
 
 .first-block {
@@ -197,7 +196,7 @@
     background-repeat: no-repeat;
     background-image: url("../img/ellipse.png"),
         url("../img/scheme horizontal.png"), url("../img/scheme vertical 1.png");
-    background-position: 131% -20%, 57% 23%, 89% 32%;
+    background-position: 131% -20%, 57% 23%, 89% 132%;
     justify-content: space-between;
     padding: 0 20px;
     overflow: hidden;
@@ -359,8 +358,8 @@
 
 .second-block {
     color: white;
-    font-size: 55px;
-    margin: 150px 0 0;
+    font-size: 35px;
+    margin: 100px 0 0;
     width: 100% !important;
     background-image: url(img/big%20vaves.png);
     padding-bottom: 50px;
@@ -433,6 +432,7 @@
 .first-block__computer-hold .computer {
     width: 100%;
     max-width: 1220px;
+    margin-top: 60px;
 }
 .first-block__computer-hold .btn {
     position: absolute;
@@ -503,7 +503,7 @@
     font-size: 40px;
     display: inline-block;
     padding: 0 26px;
-    margin: 0 20px;
+    margin: -20px 20px;
 }
 
 .first-block__computer-hold {
