@@ -460,8 +460,9 @@
     margin: 0 auto;
 }
 .first-block__mobile-hold img {
-    width: 100%;
+    width: 85%;
     display: block;
+    margin-left: 10%;
 }
 .first-block__mobile-hold .btn-1,
 .first-block__mobile-hold .btn-2 {
