@@ -460,9 +460,9 @@
     margin: 0 auto;
 }
 .first-block__mobile-hold img {
-    width: 85%;
-    display: block;
-    margin-left: 10%;
+    width: 95%;
+    display: table;
+    margin-left: 5%;
 }
 .first-block__mobile-hold .btn-1,
 .first-block__mobile-hold .btn-2 {
