@@ -380,7 +380,6 @@
     width: 100%;
     max-width: 276px;
     margin-bottom: 40px;
-    margin-left: -60px;
 }
 
 .btn {
@@ -478,7 +477,7 @@
 }
 .first-block__mobile-hold .btn-2 {
     right: initial;
-    bottom: 40px;
+    bottom: 29px;
 }
 
 @media screen and (max-width: 865px) {
