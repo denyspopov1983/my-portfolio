@@ -461,12 +461,12 @@
 }
 .first-block__mobile-hold img {
     width: 95%;
-    display: table;
+    display: unset;
     margin-left: 5%;
 }
 .first-block__mobile-hold .btn-1,
 .first-block__mobile-hold .btn-2 {
-    padding: 10px 20px;
+    padding: 8px 20px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 50%);
