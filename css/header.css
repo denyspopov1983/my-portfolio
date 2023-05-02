@@ -380,6 +380,7 @@
     width: 100%;
     max-width: 276px;
     margin-bottom: 40px;
+    margin-left: -60px;
 }
 
 .btn {
