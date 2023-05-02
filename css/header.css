@@ -469,7 +469,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 50%);
-    font-size: 10px;
+    font-size: 15px;
 }
 .first-block__mobile-hold .btn-1 {
     bottom: initial;
