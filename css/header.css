@@ -378,7 +378,7 @@
 }
 .first-block__avatar {
     width: 100%;
-    max-width: 276px;
+    max-width: 250px;
     margin-bottom: 40px;
 }
 
@@ -477,7 +477,7 @@
 }
 .first-block__mobile-hold .btn-2 {
     right: initial;
-    bottom: 29px;
+    bottom: 23px;
 }
 
 @media screen and (max-width: 865px) {
