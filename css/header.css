@@ -440,11 +440,11 @@
     bottom: 140px;
 }
 .first-block__computer-hold .btn-1 {
-    left: 33%;
+    left: 37%;
     transform: translateX(-50%);
 }
 .first-block__computer-hold .btn-2 {
-    right: 33%;
+    right: 37%;
     transform: translateX(50%);
 }
 
