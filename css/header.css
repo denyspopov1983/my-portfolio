@@ -473,11 +473,11 @@
 }
 .first-block__mobile-hold .btn-1 {
     bottom: initial;
-    top: 35.5%;
+    top: 37.5%;
 }
 .first-block__mobile-hold .btn-2 {
     right: initial;
-    bottom: 1%;
+    bottom: 2%;
 }
 
 @media screen and (max-width: 865px) {
