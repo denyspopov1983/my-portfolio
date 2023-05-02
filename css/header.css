@@ -501,10 +501,11 @@
     );
     border-radius: 10px;
     color: white;
-    font-size: 40px;
+    font-size: 27px;
     display: inline-block;
     padding: 0 26px;
     margin: -20px 20px;
+    margin-bottom: 40px;
 }
 
 .first-block__computer-hold {
