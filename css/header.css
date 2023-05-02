@@ -477,7 +477,7 @@
 }
 .first-block__mobile-hold .btn-2 {
     right: initial;
-    bottom: 23px;
+    bottom: 4%;
 }
 
 @media screen and (max-width: 865px) {
