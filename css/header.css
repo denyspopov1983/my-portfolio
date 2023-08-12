@@ -75,8 +75,9 @@
     display: flex;
     align-items: center;
 }
+
 .menu .menu-link .menu-link-icon {
-    margin-right: 12px;
+    margin-right: 0px;
 }
 
 @media screen and (max-width: 1430px) {
@@ -539,4 +540,7 @@
 
 .first-block__computer-hold {
     width: 100%;
+}
+.menu .menu-li:hover {
+    background-color: white;
 }
