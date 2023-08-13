@@ -542,5 +542,5 @@
     width: 100%;
 }
 .menu .menu-li:hover {
-    background-color: rgb(161, 161, 161);
+    transform: scale(1.2);
 }
