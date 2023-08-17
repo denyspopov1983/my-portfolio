@@ -547,6 +547,10 @@
     border-radius: 50%;
     box-shadow: 0 0 25px 0 #00fff1;
 }
-.email1111111111 {
-    margin-right: 50px;
+
+.menu .menu-link .menu-link-icon-email {
+    margin-right: 20px;
+}
+.menu .menu-link .menu-link-icon-tel {
+    margin-right: 20px;
 }
