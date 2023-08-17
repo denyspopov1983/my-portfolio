@@ -152,7 +152,7 @@
     background-repeat: no-repeat;
     background-image: url("../img/ellipse.png"), url("../img/ellipse.png"),
         url("../img/scheme horizontal.png"), url("../img/scheme vertical 1.png");
-    background-position: -200% 60%, 150% 0%, 79% 10%, 95% 40%;
+    background-position: -200% 60%, 150% 0%, 79% 7%, 95% 40%;
 }
 
 .first-block .main-holder > div {
