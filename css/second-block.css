@@ -1,0 +1,157 @@
+/* second-block */
+.second-block {
+    margin-top: 10%;
+}
+
+.second-block {
+    color: white;
+    font-size: 35px;
+    margin: 150px 0 0;
+    width: 100% !important;
+    background-image: url(img/big%20vaves.png);
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.big-vaves {
+    margin-top: 10%;
+}
+
+.computer {
+}
+
+.first-block__box-avatar-hold {
+    text-align: center;
+}
+.first-block__avatar {
+    width: 100%;
+    max-width: 276px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #04a149;
+    padding: 18px 25px;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    font-size: 16px;
+}
+
+.first-block__box-skill-list__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.first-block__box-skill-list__icons img {
+    max-width: 60px;
+    max-height: 70px;
+}
+
+.first-block__box-langs {
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.first-block__box-langs-title {
+    color: #fff;
+    margin: 0 0 20px;
+    padding-top: 20px;
+}
+.first-block__box-langs img {
+    padding: 10px;
+}
+
+.first-block__box-computer {
+    text-align: center;
+}
+
+.first-block__computer-hold {
+    display: inline-block;
+    position: relative; /* Для absolute, щоб не тикав за межи блоку */
+}
+.first-block__computer-hold .computer {
+    width: 100%;
+    max-width: 1220px;
+}
+.first-block__computer-hold .btn {
+    position: absolute;
+    bottom: 140px;
+}
+.first-block__computer-hold .btn-1 {
+    left: 33%;
+    transform: translateX(-50%);
+}
+.first-block__computer-hold .btn-2 {
+    right: 33%;
+    transform: translateX(50%);
+}
+
+.first-block__box-mobile {
+    display: none;
+    background-image: url(../img/big\ vaves.png);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.first-block__mobile-hold {
+    position: relative;
+    max-width: 379px;
+    margin: 0 auto;
+}
+.first-block__mobile-hold img {
+    width: 100%;
+    display: block;
+}
+.first-block__mobile-hold .btn-1,
+.first-block__mobile-hold .btn-2 {
+    padding: 13px 18px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 15px;
+}
+.first-block__mobile-hold .btn-1 {
+    bottom: initial;
+    top: 35.5%;
+}
+.first-block__mobile-hold .btn-2 {
+    right: initial;
+    bottom: 40px;
+}
+
+@media screen and (max-width: 865px) {
+    .first-block__box-computer {
+        display: none;
+    }
+
+    .first-block__box-mobile {
+        display: block;
+    }
+}
+
+.second-block____title {
+    color: white;
+    background: rgb(2, 46, 116);
+    background: linear-gradient(
+        309deg,
+        rgba(2, 46, 116, 1) 0%,
+        rgba(0, 23, 48, 1) 100%
+    );
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    padding: 0 26px;
+    margin: 0 20px;
+}
+
+.first-block__computer-hold {
+    width: 100%;
+}

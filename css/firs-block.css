@@ -1,0 +1,217 @@
+/* First block */
+
+.first-block {
+    background-color: #0f253a;
+}
+
+.first-block .main-holder > div {
+    min-height: 400px;
+    margin-top: 93px;
+}
+
+.first-block .first-block__box-avatar {
+    width: 20%;
+    min-width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.first-block .first-block__box-avatar > div {
+    position: relative;
+    z-index: 1;
+}
+.first-block .first-block__box-avatar::before {
+    /* для чего делаем ? */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(../img/code.png);
+    background-size: cover;
+    opacity: 0.04;
+    z-index: 0;
+}
+.first-block .first-block__box-main-text {
+    width: 34%;
+    min-width: 300px;
+}
+.first-block .first-block__box-skill-list {
+    width: 37.5%;
+    min-width: 300px;
+}
+
+.first-block .first-block__box-skill-list > div {
+    margin-bottom: 70px;
+    padding: 20px;
+}
+.first-block .first-block__box-skill-list > div:last-child {
+    margin-bottom: 0;
+}
+
+.first-block .main-holder {
+    background-color: #0f253a;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-image: url("../img/ellipse.png"),
+        url("../img/scheme horizontal.png"), url("../img/scheme vertical 1.png");
+    background-position: 131% -20%, 57% 23%, 89% -120%;
+    justify-content: space-between;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.first-block__box-skill-list__title {
+    margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1365px) {
+    .first-block .first-block__box-avatar {
+        width: 40%;
+    }
+    .first-block .first-block__box-main-text {
+        width: 60%;
+    }
+    .first-block .first-block__box-skill-list {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .first-block .first-block__box-avatar {
+        width: 100%;
+        margin-top: 40px !important;
+    }
+    .first-block .first-block__box-main-text {
+        width: 100%;
+    }
+    .first-block .first-block__box-skill-list {
+        width: 100%;
+    }
+}
+
+.main__text1 {
+    width: 50%;
+    font-size: 16px;
+}
+
+.photo {
+    margin-top: -8%;
+    position: absolute;
+    margin-left: -36%;
+}
+
+.code {
+    margin-top: -8%;
+    position: absolute;
+    margin-left: -36%;
+    z-index: 3;
+}
+
+.main__text1 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-block__box-avatar {
+}
+
+.first-block__box-main-text {
+    background: rgb(2, 46, 116);
+    background: linear-gradient(
+        309deg,
+        rgba(2, 46, 116, 1) 0%,
+        rgba(0, 23, 48, 1) 100%
+    );
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.text {
+    color: white;
+    padding: 5px 30px 0;
+    font-size: 22px;
+}
+
+.first-block__box-skill-1 {
+    background: rgb(2, 46, 116);
+    background: linear-gradient(
+        309deg,
+        rgba(2, 46, 116, 1) 0%,
+        rgba(0, 23, 48, 1) 100%
+    );
+    border-radius: 10px;
+    color: white;
+}
+
+.first-block__box-skill-1 {
+}
+
+.first-block__box-skill-1__icons {
+}
+
+.first-block__box-skill-list .menu-li {
+    margin: 0 20px;
+}
+
+.first-block__box-skill-2 {
+    color: white;
+    background: rgb(2, 46, 116);
+    background: linear-gradient(
+        309deg,
+        rgba(2, 46, 116, 1) 0%,
+        rgba(0, 23, 48, 1) 100%
+    );
+    border-radius: 10px;
+    color: white;
+    margin: 35 21px;
+}
+
+.first-block__box-skill-2-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-block__box-skill-2-text {
+    width: 33%;
+}
+
+@media screen and (max-width: 724px) {
+    .first-block__box-skill-2-wrap {
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 12px;
+    }
+    .first-block__box-skill-2-text {
+        width: 100%;
+    }
+}
+
+.h3 {
+    color: white;
+}
+
+.text4 {
+    text-align: center;
+    color: white;
+}
+
+.first-block__box-skill-3 {
+    color: white;
+    background: rgb(2, 46, 116);
+    background: linear-gradient(
+        309deg,
+        rgba(2, 46, 116, 1) 0%,
+        rgba(0, 23, 48, 1) 100%
+    );
+    border-radius: 10px;
+    color: white;
+}
+
+.first-block__box-skill-list {
+    margin-top: 5%;
+}
