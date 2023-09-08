@@ -924,6 +924,7 @@
 .menu .menu-link {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .menu .menu-link .menu-link-icon {
@@ -2212,10 +2213,12 @@ table {
 .first-block__computer-hold .btn {
     position: absolute;
     bottom: 140px;
+    text-decoration: none;
 }
 .first-block__computer-hold .btn-1 {
     left: 33%;
     transform: translateX(-50%);
+    text-decoration: none;
 }
 .first-block__computer-hold .btn-2 {
     right: 33%;
