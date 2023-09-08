@@ -2162,7 +2162,7 @@ table {
 .btn {
     display: inline-block;
     background-color: #04a149;
-    padding: 18px 25px;
+
     color: #fff;
     border-radius: 40px;
     font-weight: 700;
@@ -2216,7 +2216,6 @@ table {
     text-decoration: none;
 }
 .first-block__computer-hold .btn-1 {
-    left: 33%;
     transform: translateX(-50%);
     text-decoration: none;
 }
