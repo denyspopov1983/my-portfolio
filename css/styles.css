@@ -891,6 +891,7 @@
     color: #00f4e7;
     padding: 5px;
     transition: 0.25s;
+    text-decoration: none;
 }
 .lang-switch .lang-switch__item.active,
 .lang-switch .lang-switch__item:hover {
